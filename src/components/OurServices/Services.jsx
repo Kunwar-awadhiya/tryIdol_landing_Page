@@ -1,6 +1,5 @@
 import { FaClock, FaServer, FaLock, FaBolt, FaWifi, FaChartLine } from "react-icons/fa";
 import { MdDns, MdOutlineSecurity } from "react-icons/md";
-import { FiDatabase } from "react-icons/fi";
 import { AiOutlineCheckSquare } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import ServiceCard from "./ServiceCard";
@@ -33,7 +32,6 @@ const Services = () => {
         </p>
       </div>
 
-      {/* Services Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 max-w-6xl mx-auto">
         {services.map((service, index) => (
           <ServiceCard key={index} {...service} />

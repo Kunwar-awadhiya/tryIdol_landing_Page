@@ -155,7 +155,6 @@ const Testimonials = () => {
         </div>
       </div>
 
-      {/* Testimonial Cards */}
        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {testimonials.map((t, i) => (
           <TestimonialCard key={i} {...t} />

@@ -30,7 +30,7 @@ const Packages = () => {
         "Free Home Protect",
         "$80,000 coverage",
       ],
-      primary: true, // Highlighted card
+      primary: true, 
     },
     {
       plan: "Premium",
@@ -55,7 +55,6 @@ const Packages = () => {
         <h2 className="text-4xl font-bold text-white mt-2">Choose Your Best Package</h2>
       </div>
 
-      {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
         {plans.map((plan, index) => (
           <PricingCard key={index} {...plan} />
