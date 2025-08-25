@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -13,19 +14,22 @@ const Navbar = () => {
         </div>
 
         {/* Nav Links */}
-        <nav className="flex items-center space-x-10">
-          <a
-            href="#home"
-            className="font-medium text-white hover:text-blue-500"
-          >
+        <nav className="flex items-center space-x-10 ml-auto">
+         <a 
+            href="#Home" 
+            className="font-bold text-white hover:text-blue-500"
+            >
             Home
           </a>
-          <a href="#about" className="text-gray-300 hover:text-blue-500">
+          <a 
+            href="#about" 
+            className="font-bold text-white hover:text-blue-500"
+            >
             About 9 Hosting
           </a>
 
           <div className="relative group">
-            <button className="flex items-center text-gray-300 hover:text-blue-500">
+            <button className="flex items-center font-bold text-white hover:text-blue-500">
               Services
               <svg
                 className="ml-1 w-4 h-4"
@@ -56,13 +60,13 @@ const Navbar = () => {
             </div>
           </div>
 
-          <a href="#contact" className="text-gray-300 hover:text-blue-500">
+          <a href="#contact" className="font-bold text-white hover:text-blue-500">
             Contact Us
           </a>
         </nav>
 
         {/* CTA Button */}
-        <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium">
+        <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium ml-8">
           Get Started
         </button>
       </div>

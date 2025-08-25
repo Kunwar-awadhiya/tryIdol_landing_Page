@@ -2,6 +2,11 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero-Section/hero'
 import Footer from './components/footer/Footer'
+import About from './components/AboutUs/About'
+import Packages from './components/ourPackages/Packages'
+import Testimonials from './components/Testimonials/Testimonials'
+import Faq from './components/Faq/Faq'
+import Services from './components/OurServices/Services'
 
 function App() {
 
@@ -9,6 +14,11 @@ function App() {
     <>
      <Navbar/>
      <Hero/>
+     <About/>
+     <Packages/>
+     <Services/>
+     <Testimonials/>
+     <Faq/>
      <Footer/>
     </>
   )

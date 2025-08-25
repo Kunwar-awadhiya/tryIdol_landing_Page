@@ -19,7 +19,7 @@ const Hero = () => {
           Hosting delivers future-ready infrastructure with great support you
           can count on.
         </p>
-        <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg w-fit">
+        <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white text-2xl font-semibold px-10 py-5 rounded-lg w-fit">
           Get Started
         </button>
       </div>
