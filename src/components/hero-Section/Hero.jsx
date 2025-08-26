@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section
-      className="mx-auto flex items-center justify-between px-16"
+      className="mx-auto flex items-center justify-between px-16 pt-4 pb-10"
       style={{
         background:
           "linear-gradient(149.47deg, #0059FF -21.36%, #000000 68.05%)",

@@ -49,7 +49,7 @@ const Packages = () => {
   ];
 
   return (
-    <section className="bg-black py-20 px-6 w-full">
+    <section className="bg-black py-20 px-6 w-full pb-35 pt-30">
       <div className="text-center mb-12">
         <p className="text-blue-500 font-medium text-3xl">PACKAGES</p>
         <h2 className="text-4xl font-bold text-white mt-2">Choose Your Best Package</h2>

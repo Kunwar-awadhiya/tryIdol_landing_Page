@@ -76,7 +76,7 @@ const Faq = () => {
         </div>
 
         {/* Support Cards Below FAQs */}
-        <div className="flex flex-wrap justify-center gap-7 mt-30 mb-20">
+        <div className="flex flex-wrap justify-center gap-7 mt-35 mb-25">
           {supportCards.map((card, index) => (
             <div key={index} className="w-102 shadow-md rounded-2xl border border-gray-200 bg-white">
               <div className="flex gap-4 p-4 items-start">
