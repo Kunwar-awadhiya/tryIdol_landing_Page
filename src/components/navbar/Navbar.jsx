@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
 
         {/* Nav Links */}
-        <nav className="flex items-center space-x-10 ml-95 text-1xl">
+        <nav className="flex items-center space-x-9 ml-99 text-1xl">
          <a 
             href="#Home" 
             className="font-normal font-['rubic'] text-white hover:text-blue-500"
