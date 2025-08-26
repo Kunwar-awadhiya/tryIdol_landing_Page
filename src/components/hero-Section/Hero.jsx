@@ -10,7 +10,7 @@ const Hero = () => {
       }}
     >
       {/* Left */}
-      <div className="flex flex-col justify-center text-white max-w-2xl pl-55">
+      <div className="flex flex-col justify-center text-white max-w-2xl pl-62">
         <h1 className="text-5xl font-bold leading-tight">
           Reliable, Secure & Scalable Hosting Solutions for your Businesses
         </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
         <img
           src="/public/images/Group 208.png"
           alt="Servers"
-          className="w-[1000px] h-auto"
+          className="w-[1000px] mr-11"
         />
       </div>
     </section>
