@@ -17,19 +17,19 @@ const Navbar = () => {
         <nav className="flex items-center space-x-10 ml-95 text-1xl">
          <a 
             href="#Home" 
-            className="font-bold text-white hover:text-blue-500"
+            className="font-normal font-['rubic'] text-white hover:text-blue-500"
             >
             Home
           </a>
           <a 
             href="#about" 
-            className="font-bold text-white hover:text-blue-500"
+            className="font-normal font-['rubic'] text-white hover:text-blue-500"
             >
             About 9 Hosting
           </a>
 
           <div className="relative group">
-            <button className="flex items-center font-bold text-white hover:text-blue-500">
+            <button className="font-normal font-['rubic'] flex items-center text-white hover:text-blue-500">
               Services
               <svg
                 className="ml-1 w-4 h-4"
@@ -47,7 +47,7 @@ const Navbar = () => {
             </button>
 
             {/* Dropdown menu */}
-            <div className="absolute left-0 mt-2 w-40 bg-white text-black rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-200 invisible group-hover:visible">
+            <div className="font-normal font-['rubic'] absolute left-0 mt-2 w-40 bg-white text-black rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-200 invisible group-hover:visible">
               <a href="#service1" className="block px-4 py-2 hover:bg-gray-100">
                 Service 1
               </a>
@@ -60,13 +60,13 @@ const Navbar = () => {
             </div>
           </div>
 
-          <a href="#contact" className="font-bold text-white hover:text-blue-500">
+          <a href="#contact" className="font-normal font-['rubic'] text-white hover:text-blue-500">
             Contact Us
           </a>
         </nav>
 
         {/* CTA Button */}
-        <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium mr-11">
+        <button className="font-['rubic'] bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium mr-11">
           Get Started
         </button>
       </div>
