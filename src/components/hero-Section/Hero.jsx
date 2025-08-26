@@ -27,7 +27,7 @@ const Hero = () => {
       {/* Right */}
       <div className="flex justify-center items-center">
         <img
-          src="/public/images/Group 208.png"
+          src="/images/Group 208.png"
           alt="Servers"
           className="w-[1000px] mr-11"
         />
