@@ -69,11 +69,11 @@ const Faq = () => {
         </p>
         <p className="text-gray-400 mt-2"> Everything you need is right here.</p>
 
-        <div className="mt-8 mx-auto text-left max-w-7xl">
-          {faqs.map((f, i) => (
-            <FaqItem key={i} {...f} />
-          ))}
-        </div>
+        <div className="mt-8 mx-auto text-left max-w-7xl px-4 md:px-0">
+  {faqs.map((f, i) => (
+    <FaqItem key={i} {...f} />
+  ))}
+</div>
 
         {/* Support Cards Below FAQs */}
         <div className="flex flex-wrap justify-center gap-7 mt-35 mb-25">
