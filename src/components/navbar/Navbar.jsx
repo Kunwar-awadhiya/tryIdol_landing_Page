@@ -8,7 +8,7 @@ const Navbar = () => {
     <header className="w-full bg-black text-white">
       <div className="max-w-[1440px] h-[80px] mx-auto flex items-center justify-between px-6 md:px-10">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 ml-11">
           <svg width="212" height="40" viewBox="0 0 212 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M30.7296 20.4227C32.0689 20.4227 33.1727 21.5141 32.9775 22.8391C32.6209 25.2596 31.7312 27.5816 30.3608 29.6326C28.5393 32.3587 25.9502 34.4834 22.9211 35.7381C19.892 36.9928 16.5589 37.3211 13.3432 36.6815C10.1275 36.0418 7.17375 34.463 4.85538 32.1446C2.53701 29.8262 0.958173 26.8725 0.318535 23.6568C-0.321103 20.4411 0.00718272 17.108 1.26188 14.0789C2.51657 11.0498 4.64132 8.46074 7.36744 6.63921C9.41839 5.26881 11.7404 4.37912 14.1609 4.02248C15.4859 3.82725 16.5773 4.93113 16.5773 6.27041C16.5773 7.60968 15.4803 8.67023 14.1695 8.94521C12.7098 9.25145 11.3144 9.83492 10.0619 10.6718C8.13338 11.9604 6.63026 13.792 5.74265 15.9349C4.85503 18.0777 4.62279 20.4357 5.0753 22.7106C5.5278 24.9855 6.64472 27.0751 8.28481 28.7152C9.92491 30.3553 12.0145 31.4722 14.2894 31.9247C16.5643 32.3772 18.9223 32.145 21.0651 31.2574C23.208 30.3697 25.0396 28.8666 26.3282 26.9381C27.1651 25.6856 27.7486 24.2902 28.0548 22.8305C28.3298 21.5197 29.3903 20.4227 30.7296 20.4227Z" fill="white"/>
 <path d="M21.2189 20.2595C21.2189 22.823 19.1408 24.9011 16.5773 24.9011C14.0138 24.9011 11.9356 22.823 11.9356 20.2595C11.9356 17.696 14.0138 15.6178 16.5773 15.6178C19.1408 15.6178 21.2189 17.696 21.2189 20.2595Z" fill="#9E29C2"/>
@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center space-x-8 text-base">
+        <nav className="hidden md:flex items-center space-x-8 text-base ml-125">
           <a href="#Home" className="font-['rubic'] text-white hover:text-blue-500">
             Home
           </a>
@@ -47,7 +47,7 @@ const Navbar = () => {
         </nav>
 
         {/* CTA Button (desktop only) */}
-        <div className="hidden md:block">
+        <div className="hidden md:block mr-12">
           <button className="font-['rubic'] bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium">
             Get Started
           </button>

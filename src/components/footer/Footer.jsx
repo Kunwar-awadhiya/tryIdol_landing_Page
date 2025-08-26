@@ -72,6 +72,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      {/* Copyright */} <div className="border-t border-gray-700 py-6 text-center text-white text-sm"> Copyright © 2025 – 9 Technology Group LTD </div>
     </footer>
   );
 };
